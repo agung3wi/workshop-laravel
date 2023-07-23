@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Session;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'Ubah Halaman Home';
 });
 
 Route::get('/lang', function () {
